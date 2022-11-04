@@ -27,7 +27,7 @@ With this program you can let your Arduino analize logic circuits with up to 18 
 
 1. After uploading the program open the serial console.
 
-2. _(version 2 and 2a only)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19 
+2. _(version 2 and higher)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19 
 
     `Pin for IC input <input number> :`
 
