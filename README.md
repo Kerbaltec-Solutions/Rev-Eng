@@ -57,3 +57,7 @@ With this program you can let your Arduino analize logic circuits with up to 18 
 ## Installation:
 
 Download one of the versions from the branches and upload it to your Arduino using the IDE
+
+## Simulation:
+
+A simulation of the latest version can be found at https://wokwi.com/projects/347380666516636244
