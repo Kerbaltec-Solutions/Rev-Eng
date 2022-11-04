@@ -36,7 +36,7 @@ With this program you can let your Arduino analize logic circuits with up to 18 
         + You can still declare those pins as inputs if you want to.
     + Type anything else to treat those pins as digital pins
 
-3. _(version 2 higher)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19 
+3. _(version 2 and higher)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19 
 
     `Pin for IC input <input number> :`
 
