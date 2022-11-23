@@ -119,7 +119,7 @@ void setup() {
     for(int j=0; j<inN; j++){
       digitalWrite(ins[j], bitRead(i,j));
     }
-    delay(10);
+    delay(500);
     results[i]=0;
     for(int j=0; j<outN; j++){
       results[i]+=int(digitalRead(outs[j]))*pow(2,j);
