@@ -3,7 +3,7 @@ author:   Björn Schnabel
 
 email:    bjoern-uwe.schnabel@tu-freiberg.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: en
 
@@ -17,7 +17,7 @@ import:   LiaTemplates/mec2/blob/main/README.md
 
 -->
 
-# Reverse engeneering with Arduino Uno 
+# Reverse engeneering with Arduino Uno
 
 With this program you can let your Arduino analize logic circuits with up to 18 inputs or outputs
 
@@ -27,16 +27,25 @@ With this program you can let your Arduino analize logic circuits with up to 18 
 
 1. After uploading the program open the serial console.
 
-2. _(version 2a only)_ The arduino will ask you, if it should treat analog pins as analog 
+2. _(version 2a only)_ The arduino will ask you, if it should treat analog pins as analog
 
-    `Treat analog pins as analog? :` 
+    `Treat analog pins as analog? :`
 
-    + Type "y" or "Y" to treat the pins A0 to A5 (pin 14-19) as analog outputs of the attached circuit and record analog values when they are declared as outputs. 
+    + Type "y" or "Y" to treat the pins A0 to A5 (pin 14-19) as analog outputs of the attached circuit and record analog values when they are declared as outputs.
 
         + You can still declare those pins as inputs if you want to.
+
     + Type anything else to treat those pins as digital pins
 
-3. _(version 2 higher)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19 
+    _(version 3 only)_ The arduino will ask you, if it should display the logic table in hexadecimal
+
+    `Format output as hexadecimal?: `
+
+    + Type "y" or "Y" to show the logic table in hexadecimal
+
+    + Type anything else to display the logic table like normal
+
+3. _(version 2 and higher)_ The Arduino will ask you which pin you want to assign to a cretain input of the attached circuit. You can assign pin 2-19
 
     `Pin for IC input <input number> :`
 
