@@ -27,17 +27,7 @@ With this program you can let your Arduino analize logic circuits with up to 18 
 
 1. After uploading the program open the serial console.
 
-2. _(version 2a only)_ The arduino will ask you, if it should treat analog pins as analog
-
-    `Treat analog pins as analog? :`
-
-    + Type "y" or "Y" to treat the pins A0 to A5 (pin 14-19) as analog outputs of the attached circuit and record analog values when they are declared as outputs.
-
-        + You can still declare those pins as inputs if you want to.
-
-    + Type anything else to treat those pins as digital pins
-
-    _(version 3 only)_ The arduino will ask you, if it should display the logic table in hexadecimal
+2. _(version 3 only)_ The arduino will ask you, if it should display the logic table in hexadecimal
 
     `Format output as hexadecimal?: `
 
